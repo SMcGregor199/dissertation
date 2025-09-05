@@ -1,3 +1,10 @@
+/* Add this after Meyer’s reset */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
 textarea{
   border:2px solid black;
 }
