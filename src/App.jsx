@@ -1,13 +1,20 @@
-function Editor(){
+
+import {Header} from './components/Header.jsx'
+import {Footer} from './components/Footer.jsx'
+import {Editor} from './components/Editor.jsx'
+
+function App(){
   return(
     <>
-      <label for="editor">Editor</label>
-      <textarea id="editor" spellcheck="true" rows="12" placeholder="Enter your text here">
-      </textarea>
+      <Header/>
+        <main >
+            <Editor/>
+        </main>
+      <Footer/>
     </>
   )
 }
 
 export {
-  Editor
+  App
 }
